@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>语义相关标签</title>
+	</head>
+	<body>
+		<!-- 引用 -->
+		<p>子曰：<q cite="http://www.ldbj.com/lunyu/lunyuquanwen.htm">学而不思则罔,思而不学则殆。</q></p>
+		<div>
+			<!-- blockquote 表示一长串的引用文本 -->
+			<blockquote>
+				风急天高猿啸哀，渚清沙白鸟飞回。 <br>
+				无边落木萧萧下，不尽长江滚滚来。 <br>
+				万里悲秋常作客，百年多病独登台。 <br>
+				艰难苦恨繁霜鬓，潦倒新停浊酒杯。 </blockquote>
+			是唐代诗人杜甫的代表作，在电视剧<cite>《庆余年》</cite>出现过。
+		</div>
+		<!-- 代码 -->
+		<code>
+			#include <stdio.h><br>
+			<br>
+			int main(int argc, const char * argv[]) {<br>
+			    printf("Hello, World!\n");<br>
+			    return 0;<br>
+			}<br>
+		</code>
+		<p>上面是一段C语言的代码。</p>
+		
+		<!-- pre 标签包含的内容时预格式化文本 -->
+		<pre>
+#include <stdio.h>
+	
+int main(int argc, const char * argv[]) {
+	printf("Hello, World!\n");
+	return 0;
+}
+		</pre>
+		<!-- 预格式化的代码文本 -->
+		<pre>
+			<code>
+int main(int argc, const char * argv[]) {
+	printf("Hello, World!\n");
+	return 0;
+}				
+			</code>
+		</pre>
+		
+		<!-- abbr定义缩写 -->
+		<p><abbr title="Hyper Text Markup Language">HTML</abbr>是一种标记语言。</p>
+		<p><dfn>HTML</dfn>是一种广为人知的标记语言。</p>
+		<p>我的居住地址是：<address>上海市浦东新区xxx街道xxx小区xxx</address></p>
+		<p>通过输入如下命令：<br>
+		<kbd>list -alh</kbd><br>
+		可以查看文件的目录信息。
+		</p>
+		<p>
+		<samp>
+		我在学习的时候遇到了一个问题。<br>
+		错误提示信息是：XXX。
+		</samp>		
+		</p>
+		<var>i， j， k</var>通常用于作为循环计数器变量。
+		<p>这本书的价格是 <del>99.00</del> <ins>119.00</ins> 元。</p>
+	</body>
+</html>

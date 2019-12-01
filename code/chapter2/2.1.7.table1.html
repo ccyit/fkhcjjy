@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<table border="1" cellspacing="2" cellpadding="4">
+			<caption><b>我的图书</b></caption>
+			<tr><th>书名</th><th>作者</th></tr>
+			<tr><td><cite>《疯狂HTML 5/CSS 3/JavaScript讲义》</cite></td><td>李刚</td></tr>
+		</table>
+		<br><br>
+		<table border="1" cellspacing="2" cellpadding="4">
+			<tr>
+				<td rowspan="2">跨2行的单元格</td>
+				<td>普通单元格</td>
+			</tr>
+			<tr>
+				<td>普通单元格</td>
+			</tr>
+			<tr>
+				<td colspan="2">跨2列的单元格</td>
+			</tr>
+			<tr>
+				<td>普通单元格</td>
+				<td>普通单元格</td>
+			</tr>
+		</table>
+		
+		<br><br>
+		
+		<table border="1" cellspacing="2" cellpadding="4">
+			<caption>我的图书</caption>
+			<thead>
+				<tr>
+					<th>书名</th>
+					<th>作者</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<td colspan="2" style="text-align: right;">总计: 1 本图书</td>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td>疯狂HTML 5/CSS 3/JavaScript讲义</td>
+					<td>李刚</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<br><br>
+		
+		
+		<table style="background-color: black; border-collapse: separate;border-spacing: 1px;">
+			<caption>我的图书</caption>
+			<colgroup style="background-color: white;">
+				<col style="width: 200px;">
+				<col span="2" style="width: 60px;">
+			</colgroup>
+			<thead>
+				<tr>
+					<th>书名</th>
+					<th>作者</th>
+					<th>价格</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<td colspan="3" style="text-align: right">总计: 2本图书</td>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td>疯狂Java讲义</td>
+					<td>李刚</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>疯狂HTML 5/CSS 3/JavaScript讲义</td>
+					<td>李刚</td>
+					<td>100</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		
+	</body>
+</html>
