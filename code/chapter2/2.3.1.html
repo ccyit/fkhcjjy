@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>文档结构元素</title>
+	</head>
+	<body>
+		<article style="background-color: antiquewhite;">
+			<!-- 头部 -->
+			<header>
+				<h1>学习JavaScript，必须先学习Java吗？</h1>
+				<div>作者：ccystu</div>
+			</header>
+			<p>我是一个编程小白，想学习JavaScript，请问需要先学习Java吗？</p>
+			<!-- 回复部分用 section表示 -->
+			<section>
+				<!-- 每个article表示一个回复 -->
+				<article>
+					<header>
+						<h2>还是得学习Java</h2>
+						<div>作者：stu101</div>
+					</header>
+					<p>学习了Java，再学习JavaScript就会很容易。</p>
+				</article>
+					
+				<article>
+					<header>
+						<h2>不需要学习Java</h2>
+						<div>作者：stu111</div>
+					</header>
+					<p>直接学习JavaScript就可以了，没有必要学习Java。</p>
+				</article>
+				
+				<article>
+					<header>
+						<h2>不知道</h2>
+						<div>作者：stu0</div>
+					</header>
+					<p>我也不知道，我也不敢问，我只是来看看。</p>
+				</article>
+				
+			</section>
+			
+			<!-- 尾部 -->
+			<footer>
+				以上帖子和回复只代表个人观点。
+			</footer>
+			<aside>
+				<h3>关于楼主</h3>
+				<section>
+					<div>用户组：普通用户</div>
+					<div>注册时间：20191101</div>
+					<div>上次访问时间：20191102 20:02:12</div>
+					<div>最后发表：20191102 20:06:56</div>
+					<div>发帖数级别：小菜鸟</div>
+					<div>阅读权限：10</div>
+				</section>
+			</asid>
+		</article>
+		<!-- 底部 aside -->
+		<aside>
+			<h3>页面导航</h3>
+			<nav>
+				<ul>
+					<li><a href="#">相关内容</a></li>
+					<li><a href="#">首页</a></li>
+					<li><a href="#">返回</a></li>
+				</ul>
+			</nav>
+		</aside>
+	
+		<!-- 图片区域 -->
+		
+		<figure style="border: 2px solid red; padding: 5px;
+					width: 500px;">
+			<figcaption><b>Flowers</b></figcaption>
+			<img src="../../img/flower.jpg" width="100" alt="flower">
+			<img src="../../img/flower.jpg" width="100" alt="flower">
+			<img src="../../img/flower.jpg" width="100" alt="flower">
+		</figure>
+	</body>
+</html>
